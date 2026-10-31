@@ -1,0 +1,18 @@
+# Backups
+*.bak
+
+# Variaveis de ambiente
+.env
+.env.*
+
+# Chaves e credenciais
+*.pem
+*.key
+*.p12
+credentials
+.aws/
+
+# Arquivos temporarios
+.DS_Store
+__pycache__/
+*.pyc
