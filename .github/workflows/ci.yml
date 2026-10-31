@@ -1,0 +1,29 @@
+name: AWS Labs CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate documentation and Bash
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Validate Bash syntax
+        run: bash -n EC2/scripts/user-data.sh
+
+      - name: Validate Markdown references
+        run: python3 tests/check_markdown_links.py
