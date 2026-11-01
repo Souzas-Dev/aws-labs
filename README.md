@@ -44,3 +44,17 @@ Computing, infraestrutura e operações em nuvem.
 
 **Autor:** Eduardo Souza  
 **GitHub:** [Souzas-Dev](https://github.com/Souzas-Dev)
+
+---
+
+## Direitos autorais e política de uso
+
+Este repositório é um portfólio pessoal de documentação técnica
+dos laboratórios realizados na Escola da Nuvem.
+
+© 2026 Eduardo Souza — Souzas-Dev.
+Todos os direitos reservados sobre os conteúdos autorais.
+
+Não é concedida licença aberta para reutilização dos materiais.
+
+Consulte a [Política de uso](POLITICA-DE-USO.md).
